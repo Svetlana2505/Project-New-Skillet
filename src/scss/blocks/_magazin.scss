@@ -1,0 +1,22 @@
+.magazine {
+  background: #f5f1e9;
+  padding: 45px 0;
+}
+
+.top__line {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 40px;
+}
+
+.list {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}

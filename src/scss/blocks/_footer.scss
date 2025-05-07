@@ -1,0 +1,130 @@
+.footer__top-line {
+  padding-top: 80px;
+  padding-bottom: 115px;
+  background: #6c674d;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__top-search {
+  h3 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 2.5;
+    letter-spacing: 0.03em;
+    color: #f5f1e9;
+    margin-bottom: 11px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #fcfaf6;
+    margin-bottom: 62px;
+  }
+}
+
+.footer__form {
+  width: 448px;
+  background: #fcfaf6;
+  padding: 20px 0;
+
+  input {
+    width: 347px;
+    padding-left: 20px;
+  }
+
+  button {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    padding: 0 23px;
+  }
+}
+
+.footer__top-info {
+  width: 448px;
+}
+
+.footer__top-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.footer__top-item {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  flex-basis: 149px;
+
+  dt {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #f5f1e9;
+  }
+
+  dd {
+    font-size: 16px;
+    line-height: 1.9;
+    color: rgba(245, 241, 233, 0.6);
+  }
+}
+
+.footer__top-case {
+  h3 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #f5f1e9;
+    margin-bottom: 9px;
+  }
+
+  .case-box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.footer__bottom-line {
+  background: #807c62;
+  padding: 20px 0;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 14px;
+  line-height: 1.9;
+  color: rgba(252, 250, 246, 0.5);
+}
+
+.footer__bottom-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  .info-button {
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    background: #fcfaf6;
+    img {
+      margin: 0 auto;
+    }
+  }
+}

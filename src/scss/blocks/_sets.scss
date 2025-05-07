@@ -1,0 +1,95 @@
+.sets {
+  background-color: #fcfaf6;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.line__top {
+  max-width: 477px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 1.67;
+    letter-spacing: 0.04em;
+
+    color: var(--title-color);
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.61;
+    color: var(--text-color);
+  }
+}
+
+.set__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.item {
+  flex-basis: 286px;
+  min-height: 443px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  img {
+    position: absolute;
+    bottom: 235px;
+    left: 15px;
+  }
+}
+.item::before {
+  content: "";
+
+  width: 286px;
+  height: 229px;
+
+  background-image: url(../../img/set-oval.png);
+}
+
+.item__text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px 51px 0;
+  text-align: center;
+  font-size: 14px;
+
+  h3 {
+    line-height: 1.7;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--title-color);
+  }
+}
+
+.item__text-price {
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #6e635a;
+}
+
+.item__text-text {
+  font-size: 13px;
+  line-height: 1.51;
+  letter-spacing: 0.02em;
+  color: #6e635a;
+}
+
+.item__btn {
+  background-color: #6e635a;
+  height: 20px;
+  margin-bottom: 25px;
+  margin-top: auto;
+}

@@ -1,0 +1,31 @@
+.welcome {
+  background-color: #fff;
+  padding-top: 121px;
+  padding-bottom: 115px;
+}
+
+.wrapper__welcome {
+  max-width: 1185px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 135px;
+}
+
+.wrapper__welcome-title {
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 1.13;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.wrapper__welcome-text {
+  max-width: 650px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--text-color);
+}

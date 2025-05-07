@@ -1,0 +1,140 @@
+.sectionSkillet {
+  padding: 70px 0 139px;
+  background: #fbf6ea;
+}
+
+.sectionSkillet__top {
+  margin-bottom: 45px;
+
+  h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.3;
+    text-align: center;
+    color: #35312e;
+    margin-bottom: 53px;
+  }
+}
+
+.line__top-btn {
+  max-width: 345px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choose-btn {
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+
+  &:active {
+    border: 4px solid #514e4d;
+  }
+}
+
+.choose-btn[data-button="color--orange"] {
+  background-color: #e09d81;
+}
+
+.choose-btn[data-button="color--blue"] {
+  background: #748ea1;
+}
+
+.choose-btn[data-button="color--brown"] {
+  background: #b76d47;
+}
+.choose-btn[data-button="color--gray"] {
+  background: #7d836e;
+}
+.choose-btn[data-button="color--red"] {
+  background: #c33636;
+}
+.choose-btn[data-button="color--olive"] {
+  background: #cdc7b3;
+}
+.choose-btn[data-button="color--dark-gray"] {
+  background: #595752;
+}
+.choose-btn[data-button="color--pink"] {
+  background: #d3c2ca;
+}
+
+.sectionSkillet__bottom {
+  position: relative;
+}
+
+.sectionSkillet__bottom-img {
+  max-width: 562px;
+  max-height: 553px;
+  margin-left: 35%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.img-item {
+  display: none;
+}
+
+.img-item.img-item--active {
+  display: inline-block;
+}
+
+.choose-btn--active {
+  display: none;
+}
+
+.sectionSkillet__bottom-text {
+  padding: 0 360px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  color: #6e6259;
+}
+
+.top-left {
+  position: absolute;
+  top: 83px;
+  left: 0;
+}
+
+.top-right {
+  position: absolute;
+  top: 36px;
+  right: 0;
+}
+
+.center-left {
+  position: absolute;
+  top: 357px;
+  left: 90px;
+}
+
+.center-right {
+  position: absolute;
+  top: 284px;
+  right: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 472px;
+  left: 0;
+}
+.bottom-right {
+  position: absolute;
+  top: 443px;
+  right: 0;
+}
